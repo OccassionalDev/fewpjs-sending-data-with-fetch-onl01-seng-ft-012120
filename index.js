@@ -14,4 +14,4 @@ let configurationObject = {
   body: JSON.stringify(formData)
 };
 
-fetch(destinationURL, configurationObject);
+fetch("http://localhost:3000/dogs", configurationObject);
