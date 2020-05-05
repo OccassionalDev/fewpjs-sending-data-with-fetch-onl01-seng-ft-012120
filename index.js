@@ -1,6 +1,9 @@
 // Add your code here
 
-let formData = 
+let formData = {
+  dogName: "Byron",
+  dogBreed: "Poodle"
+};
 
 let configurationObject = {
   method: "POST",
