@@ -11,10 +11,7 @@ let configurationObject = {
     "Content-Type": "application/json",
     "Accept": "application/json"
   },
-  body: JSON.stringify({
-    dogName: "Byron",
-    dogBreed: "Poodle"
-  })
+  body: JSON.stringify(formData)
 };
 
 fetch(destinationURL, configurationObject);
