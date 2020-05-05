@@ -18,5 +18,7 @@ function submitData(name, email) {
     document.body.innerHTML = object.id;
   })
   
-  .then ;
+  .catch( function ( error ) {
+      document.body.innerHTML = error.message;
+    });
 }
