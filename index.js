@@ -1,6 +1,6 @@
 // Add your code here
 
-configurationObject = {
+let configurationObject = {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
